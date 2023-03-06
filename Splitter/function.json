@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "testcontainer/{name}",
+      "connection": "342798357878325789238553_STORAGE"
+    }
+  ]
+}
